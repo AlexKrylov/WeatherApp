@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="offer">Choose your city</string>
+    <string name="result">Discover weather</string>
+    <string name="weather">Weather in your city</string>
+    <string-array name="city_selection">
+        <item>Saint-Petersburg</item>
+        <item>Moscow</item>
+        <item>Vladivostok</item>
+    </string-array>
+    <string-array name="city_weather">
+        <item>+1</item>
+        <item>+5</item>
+        <item>+8</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Погодное приложение</string>
+    <string name="offer">Выберите город</string>
+    <string name="result">Узнать погоду</string>
+    <string name="weather">Погода в городе</string>
+    <string-array name="city_selection">
+        <item>Санкт-Петербург</item>
+        <item>Москва</item>
+        <item>Владивосток</item>
+    </string-array>
+    <string-array name="city_weather">
+        <item>+1</item>
+        <item>+5</item>
+        <item>+8</item>
+    </string-array>
+</resources>
