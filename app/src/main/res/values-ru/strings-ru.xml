@@ -3,6 +3,8 @@
     <string name="offer">Выберите город</string>
     <string name="result">Узнать погоду</string>
     <string name="weather">Погода в городе</string>
+    <string name="share_friend">Поделиться с другом</string>
+    <string name="chooser">Выберите приложение</string>
     <string-array name="city_selection">
         <item>Санкт-Петербург</item>
         <item>Москва</item>

@@ -3,6 +3,8 @@
     <string name="offer">Choose your city</string>
     <string name="result">Discover weather</string>
     <string name="weather">Weather in your city</string>
+    <string name="share_friend">Share with a friend</string>
+    <string name="chooser">Choose Application</string>
     <string-array name="city_selection">
         <item>Saint-Petersburg</item>
         <item>Moscow</item>
