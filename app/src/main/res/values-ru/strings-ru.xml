@@ -5,14 +5,42 @@
     <string name="weather">Погода в городе</string>
     <string name="share_friend">Поделиться с другом</string>
     <string name="chooser">Выберите приложение</string>
+    <string name="enable_settings">Включить настройки</string>
+    <string name="show_pressure">Показать давдние</string>
+    <string name="show_humidity">Показать влажность</string>
+    <string name="show_temperature_in_celsius">Показать температуру в Цельсиях</string>
+    <string name="show_temperature_in_fahrenheit">Показать температуру в Фаренгейтах</string>
+    <string name="switch_enable_settings">Дополнительные настройки выключены</string>
+    <string name="switch_disable_settings">Дополнительные настройки выключены</string>
+    <string name="show_pressure_on_activity">Показать давление</string>
+    <string name="hide_pressure_on_activity">Скрыть давление</string>
+    <string name="show_humidity_on_activity">Показать влажность</string>
+    <string name="hide_humidity_on_activity">Скрыть влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="humidity">Влажность</string>
     <string-array name="city_selection">
         <item>Санкт-Петербург</item>
         <item>Москва</item>
         <item>Владивосток</item>
     </string-array>
-    <string-array name="city_weather">
-        <item>+1</item>
-        <item>+5</item>
-        <item>+8</item>
+    <string-array name="city_weather_celsius">
+        <item>Температура: +1 C</item>
+        <item>Температура: +5 C</item>
+        <item>Температура: +8 C</item>
+    </string-array>
+    <string-array name="city_weather_fahrenheit">
+        <item>Температура: 33.8 F</item>
+        <item>Температура: 41 F</item>
+        <item>Температура: 46.4 F</item>
+    </string-array>
+    <string-array name="city_humidity">
+        <item>Влажность: 87%</item>
+        <item>Влажность: 92%</item>
+        <item>Влажность: 67%</item>
+    </string-array>
+    <string-array name="city_pressure">
+        <item>Давление: 752</item>
+        <item>Давление: 750</item>
+        <item>Давление: 751</item>
     </string-array>
 </resources>

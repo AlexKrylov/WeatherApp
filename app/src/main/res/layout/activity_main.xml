@@ -20,8 +20,8 @@
             android:id="@+id/textview_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_left"
             android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginStart="@dimen/margin_left"
             android:layout_marginTop="@dimen/margin_top"
             android:text="@string/offer"
             android:textAlignment="center"
@@ -30,27 +30,81 @@
             tools:layout_editor_absoluteY="16dp" />
 
         <Spinner
-            android:layout_marginStart="@dimen/margin_left"
-            android:layout_marginEnd="@dimen/margin_right"
-            android:layout_marginTop="@dimen/margin_top"
             android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top"
             android:dropDownWidth="match_parent"
             android:entries="@array/city_selection"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="48dp" />
 
         <Button
-            android:layout_marginStart="@dimen/margin_left"
-            android:layout_marginEnd="@dimen/margin_right"
-            android:layout_marginTop="@dimen/margin_top"
             android:id="@+id/button_show_weather"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top"
             android:text="@string/result"
             android:textAlignment="center"
             tools:layout_editor_absoluteX="110dp"
             tools:layout_editor_absoluteY="24dp" />
+
+        <Switch
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top"
+            android:onClick="onSwitchClicked"
+            android:text="@string/enable_settings" />
+
+        <CheckBox
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/show_pressure" />
+
+        <CheckBox
+            android:id="@+id/humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/show_humidity" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/Fahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_right"
+                android:layout_marginStart="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/show_temperature_in_fahrenheit" />
+
+            <RadioButton
+                android:id="@+id/Celsius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_right"
+                android:layout_marginStart="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/show_temperature_in_celsius" />
+        </RadioGroup>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

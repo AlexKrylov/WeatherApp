@@ -5,14 +5,42 @@
     <string name="weather">Weather in your city</string>
     <string name="share_friend">Share with a friend</string>
     <string name="chooser">Choose Application</string>
+    <string name="enable_settings">Enable Settings</string>
+    <string name="show_pressure">Show pressure</string>
+    <string name="show_humidity">Show humidity</string>
+    <string name="show_temperature_in_celsius">Show temperature in Celsius</string>
+    <string name="show_temperature_in_fahrenheit">Show temperature in Fahrenheit</string>
+    <string name="switch_enable_settings">Advanced settings are enabled</string>
+    <string name="switch_disable_settings">Advanced settings are disabled</string>
+    <string name="show_pressure_on_activity">Show pressure</string>
+    <string name="hide_pressure_on_activity">Hide pressure</string>
+    <string name="show_humidity_on_activity">Show humidity</string>
+    <string name="hide_humidity_on_activity">Hide humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
     <string-array name="city_selection">
         <item>Saint-Petersburg</item>
         <item>Moscow</item>
         <item>Vladivostok</item>
     </string-array>
-    <string-array name="city_weather">
-        <item>+1</item>
-        <item>+5</item>
-        <item>+8</item>
+    <string-array name="city_weather_celsius">
+        <item>Temperature: +1 C</item>
+        <item>Temperature: +5 C</item>
+        <item>Temperature: +8 C</item>
+    </string-array>
+    <string-array name="city_weather_fahrenheit">
+        <item>Temperature: 33.8 F</item>
+        <item>Temperature: 41 F</item>
+        <item>Temperature: 46.4 F</item>
+    </string-array>
+    <string-array name="city_humidity">
+        <item>Humidity: 87%</item>
+        <item>Humidity: 92%</item>
+        <item>Humidity: 67%</item>
+    </string-array>
+    <string-array name="city_pressure">
+        <item>Pressure: 752</item>
+        <item>Pressure: 750</item>
+        <item>Pressure: 751</item>
     </string-array>
 </resources>
