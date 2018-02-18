@@ -22,18 +22,19 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.weather_activity);
         Intent intent = getIntent();
+        if (intent != null) {
+            temperature = intent.getStringExtra(EXTRA_MESSAGE);
+            TextView tempView = findViewById(R.id.weather_desc);
+            tempView.setText(temperature);
 
-        temperature = intent.getStringExtra(EXTRA_MESSAGE);
-        TextView tempView = findViewById(R.id.weather_desc);
-        tempView.setText(temperature);
+            humidity = intent.getStringExtra(HUMIDITY);
+            TextView humidityView = findViewById(R.id.humidity);
+            humidityView.setText(humidity);
 
-        humidity = intent.getStringExtra(HUMIDITY);
-        TextView humidityView = findViewById(R.id.humidity);
-        humidityView.setText(humidity);
-
-        pressure = intent.getStringExtra(PRESSURE);
-        TextView pressureView = findViewById(R.id.pressure);
-        pressureView.setText(pressure);
+            pressure = intent.getStringExtra(PRESSURE);
+            TextView pressureView = findViewById(R.id.pressure);
+            pressureView.setText(pressure);
+        }
 
         Button button = findViewById(R.id.share);
         button.setOnClickListener(shareWithAFriend);
